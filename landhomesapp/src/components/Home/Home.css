@@ -1,0 +1,7 @@
+.main-content {
+  background-image: url("../../static/background.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
