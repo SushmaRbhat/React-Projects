@@ -10,3 +10,12 @@
 .App {
   text-align: center;
 }
+body {
+  background-image: url("./static/background.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  margin-top: 50px;
+}
