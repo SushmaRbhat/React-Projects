@@ -7,7 +7,14 @@
   height: 70px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-
+.sticky {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  z-index: 1;
+}
 .menu-link li {
   list-style: none;
   padding: 10px;
@@ -61,8 +68,8 @@ img {
     top: 50px;
   }
   .main-header {
-    height: 35vh;
     align-items: flex-start;
+    height: 35vh;
   }
   .mobile-menu-link li {
     width: 100%;

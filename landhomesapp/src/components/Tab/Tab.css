@@ -76,8 +76,10 @@
   background: #fff;
   border-radius: 8px;
   border: 2px solid #dfdfdf;
-  margin-top: 25px;
   padding: 20px;
+  position: absolute;
+  left: 0;
+  margin: 25px auto 0;
 }
 
 .multi-select-tabs {
@@ -184,4 +186,10 @@
   width: 1px;
 
   border-left: 1px solid #555;
+}
+@media (max-width: 990px) {
+  .tab-container {
+    width: 80%;
+    top: 30%;
+  }
 }

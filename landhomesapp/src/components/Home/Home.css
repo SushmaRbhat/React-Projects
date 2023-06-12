@@ -4,4 +4,6 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  margin-top: 50px;
+  overflow: scroll;
 }
