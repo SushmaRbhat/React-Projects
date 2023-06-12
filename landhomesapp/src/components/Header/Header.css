@@ -1,7 +1,7 @@
 .main-header {
   display: flex;
   position: relative;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #ffffff;
   height: 70px;
@@ -15,6 +15,22 @@
   padding: 0;
   z-index: 1;
 }
+
+.nav-action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.select-city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+
 .menu-link li {
   list-style: none;
   padding: 10px;
@@ -63,13 +79,13 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    top: 50px;
+    /* top: 50px; */
   }
   .main-header {
-    align-items: flex-start;
-    height: 35vh;
+    height: 50vh;
+    flex-direction: column;
   }
   .mobile-menu-link li {
     width: 100%;
@@ -88,6 +104,9 @@ img {
   }
   .hambergurmenu i {
     font-size: 24px !important;
+  }
+  .select-city {
+    width: 100%;
   }
 }
 
